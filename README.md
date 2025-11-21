@@ -1,3 +1,2 @@
 # Web-developer
-html-css
-Esse repositório contém meu curso de html e css com o professor Gustavo Guanabara.
+Esse repositório contém meu curso de HTML e CSS com o professor Gustavo Guanabara.
