@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendendo sobre box-level</title>
+    <style>
+        h2#principal{
+            background-color: lightgray;
+        }
+
+        h1 {
+            background-color: greenyellow;
+            heigh: 300px;
+            width: 300px;
+           
+            border-width: 10px;
+            border-style: solid;
+            border-color: blueviolet;
+
+            margin: auto;
+        }
+
+        a#importante {
+            border-width: 10px;
+            border-style: dashed;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h4>Box-level</h4>
+    <p>O box level é a caixa que está em volta do conteudo principal e pula para a proxima linha, como ex.(p, h1, div).</p>
+    <p>O inline0-level é a caixa que fica na linha, que esta em volta de um conteudo, mas continua a linha, ex.(a, )</p>
+    <h2 id="principal">Exemplo de box level na tela.</h2>
+    <p>Esse cinza acima é a caixa que cobre o h2(Exemplo de box level na tela.), seria o conteudo.</p>
+    <h1>TExto de Exemplo</h1>
+    <p>Nesse exmplo usei: <br>
+        height = altura <br>
+        width: largura <br>
+        border-width: largura/espessura da borda <br>
+        border-style: estilo da borda, que pode ser (solid, groove, dotted...) <br>
+        border-color: cor da borda
+    </p>
+
+    <h2>Exemplo de inline level</h2>
+    <p> Olhe bem esse exemplo, esse <a href="#" id="importante">link é um exemplo.</a></p>
+    <p>
+        agora modifiquei nesse exemplo a ancora ou link(a), usei: <br>
+
+    </p>
+</body>
+</html>
